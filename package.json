@@ -4,7 +4,7 @@
   "description": "http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,13 @@
   "devDependencies": {
     "babel-cli": "^6.5.1",
     "babel-core": "^6.5.2",
-    "babel-preset-es2015": "^6.5.0"
+    "babel-preset-es2015": "^6.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }
